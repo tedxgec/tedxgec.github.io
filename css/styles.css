@@ -4,3 +4,9 @@ nav {
 h1,h2,h3,h4,h5,h6{
     font-family: 'Raleway Dots', sans-serif;
 }
+#suhas {
+    background-image: url("images/Sood.png");
+}
+body {
+    font-family: 'Julius Sans One';
+}
