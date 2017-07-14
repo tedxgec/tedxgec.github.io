@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <header>
+             <!-- Dropdown Structure -->
+            <ul id="dropdownMore" class="dropdown-content">
+                <li><a href="team.html" class="red-text black">Team</a></li>
+                <li class="divider"></li>
+                <li><a href="pastSpeakers.html" class="red-text black">Past Speakers</a></li>
+                <li class="divider"class="red-text black"></li>
+                <li><a href="register.html"class="red-text black">Register</a></li> 
+            </ul>
+            <ul id="dropdownEvents" class="dropdown-content">
+                <li><a href="upComingEvent.html"class="red-text black">Upcoming Event</a></li>
+                <li class="divider"></li>
+                <li><a href="2016.html"class="red-text black">TEDXGEC 2016</a></li>
+                <li class="divider"></li>
+                <li><a href="salon.html"class="red-text black">TedxGEC Salon 2017</a></li>
+            </ul>
+            <nav class="nav-extended">
+                <div class="nav-wrapper black red-text">
+                    <a href="#!" class="brand-logo red-text">TedxGEC</a>
+                </div>
+                <div class="nav-wrapper black">
+                    <ul>
+                        <li class="active"> <a href="index.html" class="red-text">Home</a></li>
+                        <li><a href="#!" class="dropdown-button red-text" data-activates="dropdownEvents">Events<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="blog.html" class="red-text">Blog</a></li>
+                        <li><a class="dropdown-button red-text" href="#!" data-activates="dropdownMore">More<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+        <script src="scripts/init.js"></script>
+    </body>
+  </html>
