@@ -1,11 +1,15 @@
 nav {
-    font-family: 'Lato', cursive;
+    font-family: serif;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Raleway Dots', sans-serif;
-    color: #ef5350;
+    font-family: 'Alegreya', serif;
+    color: #d50000;
 }
 
 body {
-    font-family: 'Julius Sans One';
+    font-family: 'Source Sans Pro',sans-serif;
+}
+.carousel-fixed-item a {
+    background-color: rgba(100,100,256,0.5);
+    color: black;
 }
